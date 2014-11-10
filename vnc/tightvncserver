@@ -5,7 +5,7 @@
 # Carry out specific functions when asked to by the system
 case "$1" in
   start)
-    su pi -c '/usr/bin/vncserver'
+    su dhylands -c '/usr/bin/vncserver'
     echo "Starting VNC server "
     ;;
   stop)
