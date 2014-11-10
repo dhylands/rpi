@@ -9,7 +9,7 @@ case "$1" in
     echo "Starting VNC server "
     ;;
   stop)
-    pkill vncserver
+    pkill Xtightvnc
     echo "VNC Server has been stopped (didn't double check though)"
     ;;
   *)
